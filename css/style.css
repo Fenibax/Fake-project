@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'playfair';
+    src: url(/font/PlayfairDisplay-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'playfair';
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0.5rem; 
+    -webkit-box-shadow: 4px 19px 20px 5px rgba(0,0,0,0.65); 
+box-shadow: 4px 19px 20px 5px rgba(0,0,0,0.65);
+position: fixed; 
+background-color: white;
+top: 0; 
+width: 100%;
+height: 7vh;
+}
+
+
+.right ul {
+    list-style: none; 
+    display: flex; 
+}
+
+.right li {
+    margin-right: 20px; 
+}
+
+.right a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 18px; 
+}
+
+.right a:hover {
+    text-decoration: underline; 
+} 
+
+.burger-container{
+    background-image: url("/img/hamburger.jpg");
+    background-size: cover;
+    background-position: center;
+     width: 100%;
+    height: 90vh; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.tarteTexte{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1300px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; 
+}
+
+.text h2 {
+    font-size: 50px;
+    margin-bottom: 110px;
+}
+
+.text h3 {
+    font-size: 28px;
+    margin-top: 10px; 
+}
+
+.text p {
+    font-size: 16px;
+    margin-top: 70px; 
+}
+
+
+
+.tarteImage{
+    width: auto;
+    padding: 10px;
+}
+
+.text2 h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.text2 h3{
+    font-size: 20px;
+    margin: 2em 0 ;
+}
+
+.text2 p {
+    font-size: 16px;
+    padding-right: 3em; 
+    color: #a8a8a8;
+}
+
+
+.contact-container {
+    max-width: 70em; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border: 1px solid #dddddd; 
+    text-align: center; 
+}
+
+
+.gray-text {
+    color: #888888; 
+}
+
+form {
+    text-align: left; 
+    padding: 10px 0; 
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #dddddd; 
+}
+
+hr {
+    border: none; 
+    border-top: 1px solid #dddddd; 
+    margin: 10px 0; 
+}
+
+button {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #555555; 
+}
